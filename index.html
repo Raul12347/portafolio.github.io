@@ -43,24 +43,95 @@
    
     
     <header class="my-4" id="about">
-      <h2 id="about-title">Acerca de mí</h2>
-      <p id="about-text">Soy Raul Gonzaga, Ingeniero en Sistemas apasionado por la tecnología y la innovación. Me especializo en el desarrollo de soluciones creativas y eficientes, buscando siempre optimizar procesos y mejorar la experiencia del usuario.</p>
+     <section class="container my-5" id="about">
+  <div class="row align-items-center">
+    <div class="col-md-3 text-center">
+     <!-- <img src="tu-foto.jpg" alt="Foto de Raul Gonzaga" class="rounded-circle img-fluid shadow" width="150">-->
+    </div>
+    <div class="col-md-9">
+      <h2 class="fw-bold">Hola, soy Raul Gonzaga 👨‍💻</h2>
+      <p class="lead">
+         Soy Ingeniero en Sistemas con pasión por la tecnología y la innovación. Me enfoco en desarrollar soluciones eficientes, 
+         escalables y centradas en el usuario, que optimicen procesos y generen impacto real en la experiencia digital.
+      </p>
+    </div>
+  </div>
+</section>
     </header>
     
-    <section id="projects">
-      <h2 id="projects-title">Proyectos</h2>
-      <p id="projects-text">Sistema Web de Cotizaciones Nuestro Sistema Web de Cotizaciones permite a empresas y profesionales generar, administrar y enviar cotizaciones de manera rápida y eficiente. Diseñado para optimizar procesos, mejorar la gestión comercial y reducir errores, esta plataforma facilita la creación de cotizaciones personalizadas con precios actualizados, impuestos y descuentos aplicables.
-        <ul>Funcionalidades Clave</ul>
-        <li>Generación Automática de Cotizaciones Creación rápida de cotizaciones con plantillas predefinidas.</li>  
-        <li>Cálculo automático de precios, impuestos y descuentos.</li>
-        <li>Envío y Seguimiento Envío de cotizaciones en formato PDF.</li>
-        <li>Notificaciones y estado de aceptación o modificación.</li>
-      <!-- <a href="https://tusitioweb.com/cotizaciones" target="_blank" class="btn btn-primary">Ver en vivo</a> -->
-        <a href="https://github.com/Raul12347/TESISFINAL" target="_blank" class="btn btn-secondary">Código fuente</a> 
-       <!--- <iframe src="https://tusitioweb.com/cotizaciones" width="100%" height="500px"></iframe> -->
+    <section class="container my-5" id="projects">
+  <h2 class="fw-bold mb-4">Proyectos Destacados 🚀</h2>
 
-      </p>
-    </section>
+  <!-- Proyecto 1 -->
+<div class="card mb-4 shadow-sm">
+  <div class="card-body">
+    <h3 class="card-title">📄 Sistema Web de Cotizaciones</h3>
+    <p class="card-text">Plataforma para generar y administrar cotizaciones de forma rápida, con plantillas, PDF y cálculo automático de impuestos.</p>
+    
+    <span class="badge bg-primary me-2">PHP</span>
+    <span class="badge bg-success me-2">MySQL</span>
+    <span class="badge bg-warning text-dark me-2">HTML5</span>
+    <span class="badge bg-info text-dark me-2">CSS3</span>
+    <span class="badge bg-dark me-2">Bootstrap</span>
+    <span class="badge bg-secondary">JavaScript</span>
+
+    <div class="mt-4 d-flex flex-wrap gap-2">
+      <a href="https://github.com/Raul12347/TESISFINAL" class="btn btn-outline-primary" target="_blank">
+        <i class="fa-brands fa-github"></i> Código fuente
+      </a>
+      <!--- CODIGO PARA USAR DESPUES
+      <a href="https://tusitioweb.com/cotizaciones" class="btn btn-primary" target="_blank">
+        <i class="fa-solid fa-globe"></i> Visitar sitio
+      </a> -->
+    </div>
+  </div>
+</div>
+
+
+  <!-- Proyecto 2 -->
+<div class="card mb-4 shadow-sm">
+  <div class="card-body">
+    <h3 class="card-title">🗂 Gestor de Tareas</h3>
+    <p class="card-text">Organizador de tareas por categoría, con interfaz tipo tablero y fechas de control. Ideal para uso personal o en equipo.</p>
+
+    <span class="badge bg-primary me-2">PHP</span>
+    <span class="badge bg-success me-2">MySQL</span>
+    <span class="badge bg-warning text-dark me-2">HTML5</span>
+    <span class="badge bg-info text-dark me-2">CSS3</span>
+    <span class="badge bg-dark me-2">Bootstrap</span>
+    <span class="badge bg-secondary">JavaScript</span>
+
+    <div class="mt-4 d-flex flex-wrap gap-2">
+      <a href="https://github.com/Raul12347/gest_tareas.git" class="btn btn-outline-primary" target="_blank">
+        <i class="fa-brands fa-github"></i> Código fuente
+      </a>
+      <a href="https://tusitioweb.com/gestor-tareas" class="btn btn-primary" target="_blank">
+        <i class="fa-solid fa-globe"></i> Visitar sitio
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Proyecto 3 -->
+<div class="card mb-4 shadow-sm">
+  <div class="card-body">
+    <h3 class="card-title">🖱 Contador de Clics</h3>
+    <p class="card-text">App en React que cuenta clics en tiempo real, con fines educativos y de análisis.</p>
+
+    <span class="badge bg-info text-dark me-2">React</span>
+
+    <div class="mt-4 d-flex flex-wrap gap-2">
+      <a href="https://github.com/Raul12347/gest_tareas.git" class="btn btn-outline-primary" target="_blank">
+        <i class="fa-brands fa-github"></i> Código fuente
+      </a>
+      <a href="https://tusitioweb.com/contador-clics" class="btn btn-primary" target="_blank">
+        <i class="fa-solid fa-globe"></i> Visitar sitio
+      </a>
+    </div>
+  </div>
+</div>
+
+
     
     <section id="skills">
       <h2 id="skills-title">Habilidades Técnicas</h2>
@@ -75,6 +146,10 @@
       <div class="skill">
           <p>JavaScript</p>
           <div class="progress"><div class="progress-bar" style="width: 75%">75%</div></div>
+      </div>
+      <div class="skill">
+          <p>React</p>
+          <div class="progress"><div class="progress-bar" style="width: 50%">50%</div></div>
       </div>
       <div class="skill">
           <p>PHP</p>
@@ -106,28 +181,44 @@
     </div>
   </section>
     
-    <section id="experience">
-      <h2 id="experience-title">Experiencia</h2>
-      <p id="experience-text">Universidad Tres Culturas Becario de Help Desk | 2022 – 2023
-        <li>Gestioné la creación y seguimiento de tickets para resolver incidencias técnicas.</li>
-        <li>Configuré y mantuve la paquetería de software necesaria.</li>
-        <li>Desarrollé checklists para la operatividad del plantel, reduciendo tiempos de inactividad en un 20%.</li>
-        <li>Verifiqué pagos y elaboré estados de cuenta con precisión.</li>
-        <li>Realicé mantenimiento preventivo y correctivo en equipos de cómputo e impresoras.</li>
-           </p>
-    </section>
+    <section class="container my-5" id="experience">
+  <h2 class="fw-bold mb-4"><i class="fa-solid fa-briefcase me-2"></i>Experiencia</h2>
+
+  <div class="card shadow-sm border-0">
+    <div class="card-body">
+      <h5 class="card-title mb-1">Becario de Help Desk</h5>
+      <span class="badge bg-secondary mb-3">Universidad Tres Culturas | 2022 – 2023</span>
+      <ul class="mb-0">
+        <li>🎫 Gestioné la creación y seguimiento de tickets para resolver incidencias técnicas.</li>
+        <li>🛠 Configuré y mantuve la paquetería de software necesaria.</li>
+        <li>✅ Desarrollé checklists para la operatividad del plantel, reduciendo tiempos de inactividad en un 20%.</li>
+        <li>💳 Verifiqué pagos y elaboré estados de cuenta con precisión.</li>
+        <li>🧰 Realicé mantenimiento preventivo y correctivo en equipos de cómputo e impresoras.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
     
-    <section id="contact">
-      <h2 id="contact-title">Contacto</h2>
-      <p>
-          <i class="fa-brands fa-linkedin"></i>
-          <a href="https://www.linkedin.com/in/raul-gonzaga-226798288" target="_blank">LinkedIn</a>
-      </p>
-      <p>
-          <i class="fa-solid fa-envelope"></i>
-          <a href="mailto:raul79941@gmail.com">raul79941@gmail.com</a>
-      </p>
-  </section>
+    <section class="container my-5" id="contact">
+  <h2 class="fw-bold mb-4"><i class="fa-solid fa-address-book me-2"></i>Contacto</h2>
+
+  <div class="card shadow-sm border-0 p-4">
+    <div class="d-flex align-items-center mb-3">
+      <i class="fa-brands fa-linkedin fa-lg text-primary me-3"></i>
+      <a href="https://www.linkedin.com/in/raul-gonzaga-226798288" target="_blank" class="text-decoration-none">
+        linkedin.com/in/raul-gonzaga-226798288
+      </a>
+    </div>
+    <div class="d-flex align-items-center">
+      <i class="fa-solid fa-envelope fa-lg text-danger me-3"></i>
+      <a href="mailto:raul79941@gmail.com" class="text-decoration-none">
+        raul79941@gmail.com
+      </a>
+    </div>
+  </div>
+</section>
+
   </div>
  
   <script src="scripts.js"></script>
